@@ -5,7 +5,7 @@
 
    .. image:: images/mod4-1.png
    |  
-#. **Name** に任意の名称を記述し、**Destination Address/Mask** に **10.1.10.180**、**Service Port**　に **80** を設定し、**HTTP Profile (Client)** にて **HTTP** を選択、**SSL Pofile(Client)** にて **clientssl** を選択します。
+#. **Name** に任意の名称を記述し、**Destination Address/Mask** に **10.1.10.180**、**Service Port** に **80** を設定し、**HTTP Profile (Client)** にて **HTTP** を選択、**SSL Pofile(Client)** にて **clientssl** を選択します。
    
    .. image:: images/mod4-2.png
    |    
@@ -17,7 +17,7 @@
    
    .. image:: images/mod4-4.png
    |  
-#. Poolを作成します。**Name** にて、任意の名称を入力し、**Health Monitors** にてここでは **gateway_icmp** を選択し、New Membersに、WEBサーバ（**Address** : **10.1.20.202**, **Service Port** : **80** ）を加えて :guilabel:`Add` ボタンを押し、:guilabel:`Finished` ボタンを押します。
+#. Poolを作成します。**Name** にて、任意の名称を入力し、**Health Monitors** にて **gateway_icmp** を選択し、New Membersに、WEBサーバ（**Address** : **10.1.20.202**, **Service Port** : **80** ）を加えて :guilabel:`Add` ボタンを押し、:guilabel:`Finished` ボタンを押します。
    
    .. image:: images/mod4-5.png
    |  
@@ -25,7 +25,7 @@
    
    .. image:: images/mod4-6.png
    | 
-#. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username:admin、Password:password でログインします。
+#. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username: **admin**、Password: **password** でログインします。
    
    .. image:: images/mod4-7.png
    | 
@@ -37,7 +37,7 @@
    
    .. image:: images/mod4-9.png
    | 
-#. User IDが複数表示されることを確認します。
+#. SQLインジェクション攻撃が成功し、User IDが複数表示されることを確認します。
    
    .. image:: images/mod4-10.png
    | 
