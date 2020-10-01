@@ -7,5 +7,5 @@ AWAFスタンドアロン構成ネットワークサンプル／ハンズオン�
 #. 本ガイドにおける構成イメージ
 
    .. figure:: images/mod2-1.png
-   :scale: 60%
-   :align: center
+      :scale: 100%
+      :align: center

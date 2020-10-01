@@ -7,6 +7,6 @@ Advanced WAF（略してAWAF）は、スタンドアローン構成、BIG-IP LTM
 
 
 .. figure:: images/mod1-1.png
-   :scale: 100%
+   :scale: 60%
    :align: center
 

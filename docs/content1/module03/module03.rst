@@ -11,7 +11,7 @@
    |       
 #. ルーティングの設定をします。
    
-   .. image:: images/mod3-2.png
+   .. image:: images/mod3-3.png
    |  
 
 
