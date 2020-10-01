@@ -1,12 +1,14 @@
 ネットワークの設定
 =========================================================
 
-#. VLANを作成します。:guilabel:`Next` ボタンを押します。
+#. VLANを作成します。
 
    .. image:: images/mod3-1.png
    |  
 #. Self IPを設定します。
-      
+   
+   .. image:: images/mod3-2.png
+   |       
 #. ルーティングの設定をします。
    
    .. image:: images/mod3-2.png

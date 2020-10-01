@@ -5,12 +5,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod3-1.png
    |  
-#. ライセンスをアクティベーションします。
-      
-#. 以下のモジュール（（SSL復号・再暗号化：**LTM,AVR,iRulesLX,SSLO**）＆（認証：**APM**）） をプロビジョニングします。（ライセンスはSSLOとAPMの２つを利用しています。）
-   
-   .. image:: images/mod3-2.png
-   |  
+
 
 
 
