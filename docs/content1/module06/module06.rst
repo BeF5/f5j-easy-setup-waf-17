@@ -12,9 +12,9 @@
 #. **Attack Signatures** をクリックします。作成済みのセキュリティポリシーをクリックします。シグネチャのステータスが **Staging** となっていることを確認します。
 
    .. image:: images/mod6-3.png
-   | 
    .. note::
       Staging(ステージング)モードとは、Learn/Alarm/Block設定が無効化され、攻撃を検知した場合には、「Manual Traffic Learning」で学習するだけの動作となるモードです。
+   | 
 
 
 
