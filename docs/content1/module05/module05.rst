@@ -57,8 +57,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-14.png
    |  
-#. ご検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:
-Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
+#. ご検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
 
    .. image:: images/mod5-15.png
    |  
