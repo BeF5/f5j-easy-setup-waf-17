@@ -28,7 +28,7 @@
 
    .. image:: images/mod11-4.png
    |  
-#. **Security >> Application Security : Parameters : Parameters List ** にて、:guilabel:`Create` ボタンを押します。
+#. **Security >> Application Security : Parameters : Parameters List** にて、:guilabel:`Create` ボタンを押します。
 
    .. image:: images/mod11-5.png
    |  
