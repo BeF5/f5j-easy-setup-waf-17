@@ -33,7 +33,7 @@
    
    .. image:: images/mod4-8.png
    | 
-#. **SQL Injection** にアクセスし、**User ID** に 1' or 'a' = 'a と入力し、SQLインジェクション攻撃をします。
+#. **SQL Injection** にアクセスし、**User ID** に 1' or 'a' = 'a と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションが文字化けする可能性があります。)
    
    .. image:: images/mod4-9.png
    | 

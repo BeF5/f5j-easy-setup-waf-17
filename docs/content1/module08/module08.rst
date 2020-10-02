@@ -1,13 +1,18 @@
 シグネチャの動作確認
 =========================================================
 
-#. :guilabel:`Next` ボタンを押します。
+#. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username: **admin**、Password: **password** でログインし、**SQL Injection** にアクセスし、**User ID** に 1' or 'a' = 'a と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションが文字化けする可能性があります。)
 
-   .. image:: images/mod3-1.png
+   .. image:: images/mod8-1.png
    |  
+#. **Security >> Event Logs : Application : Requests** にて、**Staged** でSQLインジェクションが検出されていることを確認します。
 
+   .. image:: images/mod8-2.png
+   |  
+#. 上記画面のSuggestionsの **View...** をクリックすると、TrafficLearningの画面でも **Attack signature detected** が確認できます。（ **Security >> Application Security : Policy Building : Traffic Learning** でもたどれます。）
 
-
+   .. image:: images/mod8-3.png
+   |  
 
 
 
