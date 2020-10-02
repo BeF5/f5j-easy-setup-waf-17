@@ -7,7 +7,7 @@
 
    .. image:: images/mod7-1.png
    |  
-#. **Security >> Overview : Summary** にて、作成済みのVirtul Serverを選択し、一旦、Attacheした **Logging Profile(s)** をはずします。
+#. **Security >> Overview : Summary** にて、作成済みのVirtul Serverを選択し、一旦、アタッチした **Logging Profile(s)** をはずします。
 
    .. image:: images/mod7-2.png
    |  
