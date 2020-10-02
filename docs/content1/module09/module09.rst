@@ -15,11 +15,11 @@
    | 
 #. 再度WindowsクライアントからSQLインジェクションを試みます。
 
-   .. image:: images/mod9-４.png
+   .. image:: images/mod9-4.png
    | 
 #. **Security >> Event Logs : Application : Requests** にて、**Alarm Learn** でSQLインジェクションが検出されていることを確認します。
 
-   .. image:: images/mod8-2.png
+   .. image:: images/mod9-5.png
    |  
 
 
