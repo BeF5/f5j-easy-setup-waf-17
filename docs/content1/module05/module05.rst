@@ -5,7 +5,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-1.png
    |  
-#. `ASKF5のDownloadサイト <https://downloads.f5.com/>`__ にて、最新版のGuided Configurationをダウンロードします。（最新版をご利用の場合は、アップデート作業は不要なので、手順7に進んで下さい。）
+#. `ASKF5のDownloadサイト <https://downloads.f5.com/>`__ にて、最新版のGuided Configurationをダウンロードします。（既に最新版をご利用の場合は、アップデート作業は不要なので、手順7に進んで下さい。）
 
    .. image:: images/mod5-2.png
    |  
