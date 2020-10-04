@@ -33,7 +33,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-8.png
    |  
-#. 右上の**Show Advanced Setting** をクリックし、**Security Policy Name** に任意の名前を設定し、**Enforcement Mode** にて **Transparent** を選択し、**type of policy to protect application** にて、**Generic** を選択し、**Server Technologies** にて利用しているミドルウェアや言語を選択します。F5ハンズオン環境では、**Apache**, **MySQL**, **PHP** を選択し、:guilabel:`Next` ボタンを押します。
+#. 右上の **Show Advanced Setting** をクリックし、**Security Policy Name** に任意の名前を設定し、**Enforcement Mode** にて **Transparent** を選択し、**type of policy to protect application** にて、**Generic** を選択し、**Server Technologies** にて利用しているミドルウェアや言語を選択します。F5ハンズオン環境では、**Apache**, **MySQL**, **PHP** を選択し、:guilabel:`Next` ボタンを押します。
 
    .. image:: images/mod5-9.png
    |  
