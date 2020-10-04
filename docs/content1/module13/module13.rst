@@ -4,7 +4,7 @@
 #. シグネチャが更新された場合に、ステージングモードで運用するか、即座にLearn/Alarm/Blockの設定が適用されるかの指定が可能です。また、既存シグネチャの更新後の振る舞いについての指定も可能です。**Security >> Application Security : Policy Building : Learning and Blocking Settings** の **Attack Signatures** にて表示された画面で、必要に応じて希望する動作への設定変更を実施します。（変更する場合、Save, ApplyPolicyで反映させます。）
 
    .. image:: images/mod13-1.png
-   
+   | 
    .. note::
       Enforce updated rule immediately for non-staged signatures:
          Enforcement 状態(Non-Staging)の既存シグネチャがアップデート された場合、更新されたシグネチャも Non-Staging とします。
