@@ -1,4 +1,4 @@
-AWAFについて
+AWAFとは
 ======================================
 
 F5 Advanced WAF（略してAWAF）とは、OWASP TOP10の攻撃、ウェブアプリケーションの脆弱性、ゼロデイ攻撃、L7レイヤのDDoS攻撃などからWEBアプリケーションを守る高度なウェブアプリケーションファイアウォールです。
@@ -14,5 +14,5 @@ AWAFであれば、スタンドアローン構成、BIG-IP LTM（ADC）にアド
 
 
 その他、AWAFの特長や利用メリットは以下の記事をご確認下さい。
-- `K85426947: BIG-IP ASM operations guide　<https://support.f5.com/csp/article/K85426947>`_
-- `K07359270: Succeeding with application security　<https://support.f5.com/csp/article/K07359270>`_
+- `K85426947: BIG-IP ASM operations guide　<https://support.f5.com/csp/article/K85426947>`__ 
+- `K07359270: Succeeding with application security　<https://support.f5.com/csp/article/K07359270>`__ 

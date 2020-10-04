@@ -4,10 +4,14 @@
 #. 初期パスワード（Username:admin, Password:admin）でログインし、F5ハンズオントレーニングではパスワードを（ilovef5）に変更します。
 
    .. image:: images/mod3-1.png
+      :scale: 60%
+      :align: center
    |  
 #. パスワード変更に成功したら、変更後のパスワード（Username:admin, Password:ilovef5）でログインします。
    
    .. image:: images/mod3-2.png
+      :scale: 60%
+      :align: center
    |       
 #. :guilabel:`Next` ボタンを選択します。
    
