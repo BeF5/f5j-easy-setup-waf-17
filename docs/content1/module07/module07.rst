@@ -3,11 +3,11 @@
 
 ステージングのログをEvent Logs に出力するための設定を行います。（必須ではありませんが、ステージング運用される場合には便利です。）
 
-#. **Security >> Event Logs : Logging Profiles** にて、:guilabel:`Create` ボタンを押します。任意の名前を設定し、**Application Security** のところで、**Enabled** をチェックし、**Request type** にて、**Illegal requests, and requests that include staged attack signatures** を選択し、:guilabel:`Create` ボタンを押します。
+#. **Security >> Event Logs : Logging Profiles** にて、:guilabel:`Create` ボタンを押します。任意の名前を設定し、**Application Security** のところで、**Enabled** をチェックし、**Request type** にて、**Illegal requests, and requests that include staged attack signatures ...** を選択し、:guilabel:`Create` ボタンを押します。
 
    .. image:: images/mod7-1.png
    |  
-#. **Security >> Overview : Summary** にて、作成済みのVirtul Serverを選択し、一旦、アタッチした **Logging Profile(s)** をはずします。
+#. **Security >> Overview : Summary** にて、作成済みのVirtul Serverにチェックをし、一旦、アタッチした **Logging Profile(s)** をはずします。
 
    .. image:: images/mod7-2.png
    |  

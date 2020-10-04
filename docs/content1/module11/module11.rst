@@ -24,7 +24,7 @@
 
    .. image:: images/mod11-3.png
    |  
-#. **Occurences** をクリックし、誤検知したパラメータ名（mtxMessage）とシグネチャID（2000028335）を確認します。
+#. **Occurences** をクリックし、誤検知したパラメータ名（mtxMessage）とシグネチャID（200002835）を確認します。
 
    .. image:: images/mod11-4.png
    |  
@@ -48,7 +48,7 @@
 誤検知したパラメータで該当シグネチャを無効化
 --------------------------------------------
 
-#. 今度は先程作成したParameterの **Parameter Value Type** にて、**User-Input Value** を選択し、**Attack Sigantures** タブにて、誤検知したシグネチャID（2000028335）を左に移動し、**Disabled** にし、:guilabel:`Update` ボタンを押します。　
+#. 今度は先程作成したParameterの **Parameter Value Type** にて、**User-Input Value** を選択し、**Attack Sigantures** タブにて、誤検知したシグネチャID（200002835）を左に移動し、**Disabled** にし、:guilabel:`Update` ボタンを押します。　
 
    .. image:: images/mod11-9.png
    | 

@@ -5,7 +5,7 @@
 
    .. image:: images/mod4-1.png
    |  
-#. **Name** に任意の名称を記述し、**Destination Address/Mask** に **10.1.10.180**、**Service Port** に **80** を設定し、**HTTP Profile (Client)** にて **HTTP** を選択、**SSL Pofile(Client)** にて **clientssl** を選択します。
+#. **Name** に任意の名称を記述し、**Destination Address/Mask** に **10.1.10.180**、**Service Port** に **443** を設定し、**HTTP Profile (Client)** にて **HTTP** を選択、**SSL Pofile(Client)** にて **clientssl** を選択します。
    
    .. image:: images/mod4-2.png
    |    
@@ -28,12 +28,14 @@
 #. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username: **admin**、Password: **password** でログインします。
    
    .. image:: images/mod4-7.png
+      :scale: 60%
+      :align: center
    | 
 #. **DVWA Security** にアクセスし、**Security Level** を **Low** に設定します。
    
    .. image:: images/mod4-8.png
    | 
-#. **SQL Injection** にアクセスし、**User ID** に 1' or 'a' = 'a と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
+#. **SQL Injection** にアクセスし、**User ID** に **' or 1=1 #** と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
    
    .. image:: images/mod4-9.png
    | 

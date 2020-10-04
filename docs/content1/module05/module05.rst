@@ -1,7 +1,7 @@
 Guided configurationによるWAFポリシーの作成
 =========================================================
 
-#. **Security >> Guided Configuration** を開きます。Guided Configurationのバージョンを確認します。
+#. **Security >> Guided Configuration** を開きます。Guided Configurationのバージョンを確認します。（Guided Configurationの起動には少し時間がかかります。）
 
    .. image:: images/mod5-1.png
    |  
@@ -33,11 +33,11 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-8.png
    |  
-#. **Security Policy Name** に任意の名前を設定し、**Enforcement Mode** にて **Transparent** を選択し、**type of policy to protect application** にて、**Generic** を選択し、**Server Technologies** にて利用しているミドルウェアや言語を選択します。F5ハンズオン環境では、**Apache**, **MySQL**, **PHP** を選択し、:guilabel:`Next` ボタンを押します。
+#. 右上の**Show Advanced Setting** をクリックし、**Security Policy Name** に任意の名前を設定し、**Enforcement Mode** にて **Transparent** を選択し、**type of policy to protect application** にて、**Generic** を選択し、**Server Technologies** にて利用しているミドルウェアや言語を選択します。F5ハンズオン環境では、**Apache**, **MySQL**, **PHP** を選択し、:guilabel:`Next` ボタンを押します。
 
    .. image:: images/mod5-9.png
    |  
-#. 既にVirtual Serverは作成済みなので、ここでは、**Assign Policy to Virtual Server(s)** にチェックを入れ、**Use Existing** を選択し、作成済みのVirtul Serverを右に移動させ、:guilabel:`Next＆Next` ボタンを押します。
+#. 既にVirtual Serverは作成済みなので、ここでは、**Assign Policy to Virtual Server(s)** にチェックを入れ、**Use Existing** を選択し、作成済みのVirtul Serverを右に移動させ、:guilabel:`Save＆Next` ボタンを押します。
 
    .. image:: images/mod5-10.png
    | 
@@ -45,7 +45,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-11.png
    |  
-#. 作成したWAFのポリシーにLogging Profileをアタッチします。**Security >> Overview:Summary** にて、**Attach** の **Logging Profile** を選択します。
+#. 作成したWAFのポリシーにLogging Profileをアタッチします。**Security >> Overview:Summary** にて、作成済みのVirtual Serverを選択し、**Attach** の **Logging Profile** を選択します。
 
    .. image:: images/mod5-12.png
    |  
@@ -53,11 +53,11 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-13.png
    |  
-#. **Local Traffic >> Virtual Servers:Virtual Server List** にて作成済みのVirtul Serverを選択し、**Security** タブを選択します。**Application Security Policy** と　**Log Profile** がそれぞれ設定されていることを確認します。
+#. **Local Traffic >> Virtual Servers:Virtual Server List** にて作成済みのVirtul Serverを選択し、**Security** タブの **Policies** を選択します。**Application Security Policy** と　**Log Profile** がそれぞれ設定されていることを確認します。
 
    .. image:: images/mod5-14.png
    |  
-#. ご検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
+#. 次にご検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
 
    .. image:: images/mod5-15.png
    |  

@@ -65,11 +65,11 @@
    
    .. image:: images/mod3-15.png
    | 
-#. Default Gatewayの設定を行います。**Network >> Routes** にて、:guilabel:`Create` ボタンを選択します。**Name** に任意の名前を設定し、**Destination** , **Netmask** に **0.0.0.0** を設定し、**Gateway Address** に **10.1.10.1** を設定し、:guilabel:`Finished` ボタンを選択します。
+#. Default Gatewayの設定を行います。**Network >> Routes** にて、:guilabel:`Add` ボタンを選択します。**Name** に任意の名前を設定し、**Destination** , **Netmask** に **0.0.0.0** を設定し、**Gateway Address** に **10.1.10.1** を設定し、:guilabel:`Finished` ボタンを選択します。
 
    .. image:: images/mod3-16.png
    |  
-#. WEBサーバへのルーティング設定を行います。（F5ハンズオントレーニングでは、SelfIPと同じセグメントなため不要です。）
+#. WEBサーバへのルーティング設定を行います。（以下は設定例となります。F5ハンズオントレーニングでは、SelfIPと同じセグメントなため不要です。）
 
    .. image:: images/mod3-17.png
    |  
@@ -77,8 +77,8 @@
    
    .. image:: images/mod3-18.png
    | 
-#. DNSの設定を行います。（F5ハンズオントレーニングでは予め設定されています。）
-   
+#. DNSの設定を行います。**System >> Configuration : Device : DNS** にて設定します。（F5ハンズオントレーニングでは予め設定されていますので、確認のみ行って下さい。）
+
    .. image:: images/mod3-19.png
    | 
 #. NTPの設定を行います。**System >> Configuration : Device : NTP** にて、NTPを設定し、:guilabel:`Update` ボタンを選択します。 F5ハンズオントレーニングではNTPを利用します。
