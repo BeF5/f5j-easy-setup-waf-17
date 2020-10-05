@@ -17,4 +17,4 @@ Threat campaignsシグネチャの設定
    | 
 
 .. note::
-    Threat Campaignsシグネチャを利用するのは別途サブスクリプションライセンスが必要となります。
+    Threat Campaignsシグネチャを利用するには、別途サブスクリプションライセンスが必要となります。

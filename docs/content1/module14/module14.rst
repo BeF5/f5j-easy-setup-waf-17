@@ -3,7 +3,7 @@ CVE番号によるシグネチャの検索
 
 各シグネチャがどのCVEに対応しているか確認することが可能です。
 
-#. **Security >> Options : Application Security : Attack Signatures : Attack Signature List** で表示され た画面の **Show Filter Details** をクリックすると、以下のような画面が表示されます。**References** から **CVE** を選択し、CVE番号を入力して :guilabel:`Go` ボタンを押します。
+#. **Security >> Options : Application Security : Attack Signatures : Attack Signature List** で表示された画面の **Show Filter Details** をクリックすると、以下のような画面が表示されます。**References** から **CVE** を選択し、CVE番号を入力して :guilabel:`Go` ボタンを押します。
    
    .. image:: images/mod14-1.png
    | 
