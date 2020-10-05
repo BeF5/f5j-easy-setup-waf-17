@@ -9,7 +9,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-2.png
    |  
-#. AWAFの先程の画面に戻り、ダウンロードしたGuided Configurationファイル（xxx.tar.gz）をアップロード、インストールします。
+#. AWAFの先程の画面に戻り、右上の **Upgrade Guided Configuration** をクリックし、ダウンロードしたGuided Configurationファイル（xxx.tar.gz）をアップロード、インストールします。
 
    .. image:: images/mod5-3.png
    |  
@@ -57,7 +57,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-14.png
    |  
-#. 次にご検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
+#. 次に誤検知対策、負荷防止対策を設定します。（必須ではありません。） **Security >> Application Security : Policy Building : Learning and Blocking Settings** を開きます。日本語サイトの誤検知の防止策として、**Failed to convert character** をOFFにします。また、**Data Guard:Information Leakage Detected** もパフォーマンス面を考慮してOFFにし、:guilabel:`Save` ボタンを押します。
 
    .. image:: images/mod5-15.png
    |  

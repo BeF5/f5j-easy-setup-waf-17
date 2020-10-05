@@ -1,7 +1,7 @@
 シグネチャの動作確認
 =========================================================
 
-#. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username: **admin**、Password: **password** でログインし、**SQL Injection** にアクセスし、**User ID** に 1' or 'a' = 'a と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
+#. Windowsクライアントを起動し、https://10.1.10.180/DVWA/login.php にアクセスします。Username: **admin**、Password: **password** でログインし、**SQL Injection** にアクセスし、**User ID** に **'or 1=1 #** と入力し、SQLインジェクション攻撃をします。(本ガイドからコマンドはコピーしないで下さい。シングルクォーテーションに注意してタイプして下さい。)
 
    .. image:: images/mod8-1.png
    |  

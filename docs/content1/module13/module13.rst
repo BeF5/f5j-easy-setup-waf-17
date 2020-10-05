@@ -1,7 +1,7 @@
 シグネチャ、TCシグネチャのアップデート
 ======================================
 
-#. シグネチャが更新された場合に、ステージングモードで運用するか、即座にLearn/Alarm/Blockの設定が適用されるかの指定が可能です。また、既存シグネチャの更新後の振る舞いについての指定も可能です。**Security >> Application Security : Policy Building : Learning and Blocking Settings** の **Attack Signatures** にて表示された画面で、必要に応じて希望する動作への設定変更を実施します。（変更する場合、Save, ApplyPolicyで反映させます。）
+#. シグネチャが更新された場合に、ステージングモードで運用するか、即座にLearn/Alarm/Blockの設定を適用するかの指定が可能です。また、既存シグネチャの更新後の振る舞いについての指定も可能です。**Security >> Application Security : Policy Building : Learning and Blocking Settings** の **Attack Signatures** にて表示された画面で、必要に応じて希望する動作への設定変更を実施します。（変更する場合、Save, ApplyPolicyで反映させます。）
 
    .. image:: images/mod13-1.png
    | 
@@ -9,7 +9,7 @@
       Enforce updated rule immediately for non-staged signatures:
          Enforcement 状態(Non-Staging)の既存シグネチャがアップデート された場合、更新されたシグネチャも Non-Staging とします。
       Retain previous rule enforcement and place updated rule in staging:
-         Enforcement 状態(Non-Staging)の既存シグネチャがアップデート された場合、更新前のシグネチャは Non-Staging のままとし、更新 されたシグネチャを Staging とします。更新されたシグネチャの Staging 期間が終了した際に、更新前の シグネチャが削除され、更新されたシグネチャが Non-Staging とな ります。
+         Enforcement 状態(Non-Staging)の既存シグネチャがアップデート された場合、更新前のシグネチャは Non-Staging のままとし、更新 されたシグネチャを Staging とします。更新されたシグネチャの Staging 期間が終了した際に、更新前の シグネチャが削除され、更新されたシグネチャが Non-Staging となります。（Manualモードでの運用の場合は、手動でStaging->Non-Stagingの設定が必要です。）
 
 #. **System >> Software Management : Live Update** で表示された画面で、**Check for Updates** をクリックして、シグネチャ更新の有無を確認します。
 
@@ -69,7 +69,8 @@
    | 
 
 .. note::
-    新しいSignatureをUpdateすることで新たな攻撃に対応することができます。Signatureの更新についての詳細は、以下の記事を参考にして下さい。
+    F5ハンズオンでは手順の関係上、動作確認の後にシグネチャをアップデートしておりますが、本来は運用テスト前に行って下さい。
+    新しいシグネチャをアップデートすることで新たな攻撃に対応することができます。シグネチャの更新についての詳細は、以下の記事を参考にして下さい。
     
     - `K82512024: Managing BIG-IP ASM Live Updates (14.1.x and later) <https://support.f5.com/csp/article/K82512024>`_
 

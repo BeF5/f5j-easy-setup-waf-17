@@ -81,7 +81,7 @@
 
    .. image:: images/mod3-19.png
    | 
-#. NTPの設定を行います。**System >> Configuration : Device : NTP** にて、NTPを設定し、:guilabel:`Update` ボタンを選択します。 F5ハンズオントレーニングではNTPを利用します。
+#. NTPの設定を行います。**System >> Configuration : Device : NTP** にて、NTPを設定し、:guilabel:`Update` ボタンを選択します。 F5ハンズオントレーニングではNICTのNTPを利用します。
    
    .. image:: images/mod3-20.png
    | 
