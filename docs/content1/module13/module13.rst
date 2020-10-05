@@ -70,5 +70,6 @@
 
 .. note::
     新しいSignatureをUpdateすることで新たな攻撃に対応することができます。Signatureの更新についての詳細は、以下の記事を参考にして下さい。
-    https://support.f5.com/csp/article/K82512024
+    
+    - `K82512024: Managing BIG-IP ASM Live Updates (14.1.x and later) <https://support.f5.com/csp/article/K82512024>`_
 
