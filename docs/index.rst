@@ -1,11 +1,11 @@
-.. F5 Advanced WAF セットアップガイド documentation master file, created by F5 Japan in 2020.
+.. BIG-IP APMセットアップガイド PassLogicクラウド版 編 documentation master file, created by F5 Japan in 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 
-F5 Advanced WAF v15.1 簡単セットアップガイド
+BIG-IP APMセットアップガイド PassLogicクラウド版 編
 ==============================================
-最終更新日: 2020年10月6日
+最終更新日: 2020年10月11日
 
 
 はじめに
@@ -21,13 +21,13 @@ F5のオフィシャルなドキュメントはこちらにございます。
 ==============================================
 こちらのページでは、以下の内容をご紹介しております。
 
-- 本セットアップガイドにて、F5 Advanced WAF（以下、AWAF）のポリシーの設定方法についてご案内します。
-- AWAFは、Webアプリケーションファイアウォールです。
-- AWAF によって、Web アプリケーション特有の攻撃に対する防御が可能となります。
-- Bot対策機能、L7レベルのDoS攻撃に対する防御機能も兼ね備えています。
-- 本ガイドでは、AWAFをご購入いただいてすぐにWAFを導入頂けるように、必要となる典型的なセットアップ手法を、豊富なスクリーンショットを交えて解説します。（実際は環境構成にあった設定値を設定して下さい。）
-- 本ガイドでは、F5 Japanにおけるハンズオントレーニングのコースでも利用しております。
+本セットアップガイドでは、BIG-IP Access Policy Manager (APM)とLassLogicクラウド版との連携方法についてご紹介します。
+各製品／サービスについては、以下のページをご参照ください。
 
+- `APMについて <https://www.f5.com/ja_jp/products/security/access-policy-manager>`_
+- `BIG-IP APM v15.1 マニュアル一覧 <https://techdocs.f5.com/en-us/bigip-15-1-0/big-ip-access-policy-manager-visual-policy-editor.html>`_
+- `PassLogic（トークンレス・ワンタイムパスワード）について <https://passlogic.jp/tokenless/>`_
+- `PassLogicクラウド版　オンラインマニュアル <https://support-plc.passlogic.jp/hc/ja/sections/360007759851-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB>`_
 
 
 
