@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'BIG-IP APMセットアップガイド PassLogicクラウド'
+project = 'AWAF v15.1 セットアップガイド'
 copyright = '2020, F5ネットワークスジャパン合同会社'
 author = 'F5ネットワークスジャパン合同会社'
 
