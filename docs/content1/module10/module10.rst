@@ -1,7 +1,7 @@
 Blockingモードへの変更
 =========================================================
 
-#. Blockingモードへ変更すると、Event logに攻撃として記録され、更にブロックされます。**Security >> Application Security : Security Policies : Policies List >> DVWA_policy** にて、**General Settings** を選択し、**Enforcement Mode** に変更し、:guilabel:`Save` ボタンを選択します。
+#. Blockingモードへ変更すると、Event logに攻撃として記録され、更にブロックされます。**Security >> Application Security : Security Policies : Policies List >> DVWA_policy** にて、**General Settings** を選択し、**Enforcement Mode** を **Blocking** に変更し、:guilabel:`Save` ボタンを選択します。
 
    .. image:: images/mod10-1.png
    | 

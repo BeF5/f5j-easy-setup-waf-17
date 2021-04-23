@@ -3,15 +3,15 @@ Threat campaignsシグネチャの設定
 
 　Webアプリケーションの脅威対策を行う上で、実際の攻撃とフォールスポジティブを見極めることに直面することがあります。シグネチャやWAFの様々な機能によって、既知の脆弱性に対する攻撃リクエストを評価すると同時に、悪意のないリクエストも評価されるため、管理者はWAFで検知されたアラートに対し、正常なリクエストか悪意のあるリクエストか判断を迫られることがあります。
 　
-　この問題は、検査するデータがシングルポイントであることにあります。もっと多くの条件を元にリクエストを検査することによって、この問題を解決することができることがあります。F5はこの問題を解決する手法として、**Threat Campaignsシグネチャ** という独自のシグネチャを提供しています。**Threat Campaignsシグネチャ** は、実際の攻撃キ ャンペーンを元に複数の条件をマッピングされたものになっています。
+　この問題は、検査するデータがシングルポイントであることにあります。もっと多くの条件を元にリクエストを検査することによって、この問題を解決することができることがあります。F5はこの問題を解決する手法として、**Threat Campaignsシグネチャ** という独自のシグネチャを提供しています。**Threat Campaignsシグネチャ** は、実際の攻撃キャンペーンを元に複数の条件をマッピングされたものになっています。
 
 　この項では、Threat Campaignsシグネチャの設定確認と、テキスト上にて攻撃サンプルログを確認します。 
 
-#. **Security >> Application Security : Policy Building : Learning and Blocking Settings** で表示された画面にて、Threat Campaigns の **Alarm** と **Block** 有効になっていることを確認します。（Learnは存在しません。）
+#. **Security >> Application Security : Policy Building : Learning and Blocking Settings** で表示された画面にて、Threat Campaigns の **Alarm** と **Block** が有効になっていることを確認します。（Learnは存在しません。）
 
    .. image:: images/mod12-1.png
    |  
-#. 攻撃を受けたと仮定して、Eveng Logsでログを確認します。（F5ハンズオンでは実際に攻撃は行いません。本ガイドによる確認のみとなります。）下記は攻撃を受けたときのサンプルログとなります。こちらを見ると、Violation Rating が **5:Request is most likely a threat** となっていることが分かります。これはThreat Campaginsシグネチャが実際の攻撃を元に作成されており、ほぼフォールスポジティブではないことを表しています。
+#. 攻撃を受けたと仮定して、Eveng Logsでログを確認します。（F5ハンズオンでは実際に攻撃は行いません。本ガイドによる確認のみとなります。）下記は攻撃を受けたときのサンプルログとなります。こちらを見ると、Violation Rating が **5:Request is most likely a threat** となっていることが分かります。これはThreat Campaignsシグネチャが実際の攻撃を元に作成されており、ほぼフォールスポジティブではないことを表しています。
 
    .. image:: images/mod12-2.png
    | 

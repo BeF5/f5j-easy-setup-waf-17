@@ -27,7 +27,7 @@
       :scale: 60%
       :align: center
    | 
-#. 全てをインスールしたい場合は、InstallAllUpdatesをクリックします。
+#. 全てをインストールしたい場合は、InstallAllUpdatesをクリックします。
 
    .. image:: images/mod13-5.png
    | 

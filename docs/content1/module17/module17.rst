@@ -7,7 +7,7 @@ Blockingモード画面のメッセージカスタマイズ
    
    .. image:: images/mod17-1.png
    | 
-#. **Response Body** タブにて、**Custome Response** を選択します。
+#. **Response Body** タブにて、**Custom Response** を選択します。
 
    .. image:: images/mod17-2.png
    | 

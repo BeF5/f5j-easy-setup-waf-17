@@ -53,11 +53,11 @@
    
    .. image:: images/mod3-12.png
    | 
-#. External SelfIPの設定を行います。**Network >> Self IP List** にて、:guilabel:`Create` ボタンを選択します。**Name** に **external-selfip** と設定し、**IP Address** に **10.1.10.80** 、**Netmask** に **255.255.255.０** 、**VLAN/Tunnel** に **external** を選択し、**Port Locakdown** に **Allow None** を選択し、:guilabel:`Finished` ボタンを選択します。
+#. External SelfIPの設定を行います。**Network >> Self IP List** にて、:guilabel:`Create` ボタンを選択します。**Name** に **external-selfip** と設定し、**IP Address** に **10.1.10.80** 、**Netmask** に **255.255.255.０** 、**VLAN/Tunnel** に **external** を選択し、**Port Lockdown** に **Allow None** を選択し、:guilabel:`Finished` ボタンを選択します。
    
    .. image:: images/mod3-13.png
    | 
-#. Internal SelfIPの設定を行います。**Network >> Self IP List** にて、:guilabel:`Create` ボタンを選択します。**Name** に **internal-selfip** と設定し、**IP Address** に **10.1.20.80** 、**Netmask** に **255.255.255.０** 、**VLAN/Tunnel** に **internal** を選択し、**Port Locakdown** に **Allow Default** を選択し、:guilabel:`Finished` ボタンを選択します。
+#. Internal SelfIPの設定を行います。**Network >> Self IP List** にて、:guilabel:`Create` ボタンを選択します。**Name** に **internal-selfip** と設定し、**IP Address** に **10.1.20.80** 、**Netmask** に **255.255.255.０** 、**VLAN/Tunnel** に **internal** を選択し、**Port Lockdown** に **Allow Default** を選択し、:guilabel:`Finished` ボタンを選択します。
    
    .. image:: images/mod3-14.png
    | 
