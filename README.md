@@ -1,2 +1,2 @@
-# F５ Advanced WAF かんたんセットアップガイド v15.1
+# F５ Advanced WAF かんたんセットアップガイド v17.1
 日々更新中
