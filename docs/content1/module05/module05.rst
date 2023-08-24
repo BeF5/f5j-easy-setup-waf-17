@@ -5,7 +5,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-1.png
    |  
-#. `ASKF5のDownloadサイト <https://downloads.f5.com/>`__ にて、最新版のGuided Configurationをダウンロードします。ダウンロードにはAskF5のアカウント登録が必要となります。アカウント登録は数分で行うことはできますが、F5ハンズオン受講者でアカウントをすぐに作成することができない方は、Windows Clientデスクトップ上のダウンロード済みのファイルをご利用下さい。（既に最新版をご利用の場合は、アップデート作業は不要なので、手順7に進んで下さい。）
+#. `MyF5のDownloadサイト <https://my.f5.com/manage/s/downloads>`__ にて、最新版のGuided Configurationをダウンロードします。ダウンロードにはMyF5のアカウント登録が必要となります。アカウント登録は数分で行うことはできますが、F5ハンズオン受講者でアカウントをすぐに作成することができない方は、Windows Clientデスクトップ上のダウンロード済みのファイルをご利用下さい。（既に最新版をご利用の場合は、アップデート作業は不要なので、手順7に進んで下さい。）
 
    .. image:: images/mod5-2.png
    |  
