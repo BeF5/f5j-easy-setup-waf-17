@@ -7,11 +7,16 @@ Geolocation Enforcement の設定を行うことで、接続される予定の�
    
    .. image:: images/mod15-1.png
    | 
-#. **Security >> Application Security : Geolocation Enforcement** にて、接続する予定のない国を **Disallowed Geolocations** に移動し、:guilabel:`Save` を押します。
+#. **Security >> Application Security : Security Policies: : Policies List** にて、対象のポリシーを選択します。
 
    .. image:: images/mod15-2.png
    | 
-#. :guilabel:`Apply Policy` を押します。
+
+#. **General Setting** の **Geolocation Enforcement **  にて、接続する予定のない国を **Disallow Access** に移動し、:guilabel:`Save` を押します。
 
    .. image:: images/mod15-3.png
+   |    
+#. :guilabel:`Apply Policy` を押します。
+
+   .. image:: images/mod15-4.png
    | 
