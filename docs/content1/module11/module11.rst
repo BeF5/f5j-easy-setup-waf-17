@@ -24,9 +24,11 @@
 
    .. image:: images/mod11-3.png
    |  
-#. **Occurences** をクリックし、誤検知したパラメータ名（mtxMessage）とシグネチャID（200002835）を確認します。
+#. **Occurences** をクリックし、誤検知したパラメータ名（mtxMessage）を確認します。また、Attack Signature列のSee Moreをクリックし、 Documentationリンクを開いたページで、シグネチャID（200002835）を確認します。
 
-   .. image:: images/mod11-4.png
+   .. image:: images/mod11-4-1.png
+   .. image:: images/mod11-4-2.png
+   .. image:: images/mod11-4-3.png         
    |  
 #. **Security >> Application Security : Parameters : Parameters List** にて、:guilabel:`Create` ボタンを押します。
 
