@@ -9,7 +9,7 @@
 
    .. image:: images/mod8-2.png
    |  
-#. 上記画面のSuggestionsの **View...** をクリックすると、TrafficLearningの画面でも **Attack signature detected** が確認できます。（ **Security >> Application Security : Policy Building : Traffic Learning** でもたどれます。）
+#. 上記画面のSuggestionsの **Related Suggestions** をクリックすると、TrafficLearningの画面でも **Attack signature detected** が確認できます。（ **Security >> Application Security : Policy Building : Traffic Learning** でもたどれます。）
 
    .. image:: images/mod8-3.png
    |  
