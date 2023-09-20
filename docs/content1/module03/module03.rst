@@ -77,7 +77,7 @@
    
    .. image:: images/mod3-18.png
    | 
-#. DNSの設定を行います。**System >> Configuration : Device : DNS** にて設定します。（F5ハンズオントレーニングでは予め設定されていますので、確認のみ行って下さい。）
+#. DNSの設定を行います。**System >> Configuration : Device : DNS** にて設定します。F5ハンズオントレーニングでは、10.1.1.2を指定します。
 
    .. image:: images/mod3-19.png
    | 
