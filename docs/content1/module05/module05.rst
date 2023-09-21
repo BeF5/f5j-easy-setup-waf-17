@@ -17,7 +17,7 @@ Guided configurationによるWAFポリシーの作成
 
    .. image:: images/mod5-4.png
    |  
-#. インストールが終了したら、:guilabel:`Continue` ボタンを押します。（agc-sign.crt、usecase-pack-hash、usecase-pack-hash.signの3つはエラーと表示されますが、そのまま進めて問題ありません。）
+#. インストールが終了したら、:guilabel:`Continue` ボタンを押します。
 
    .. image:: images/mod5-5.png
    |  
